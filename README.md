@@ -11,6 +11,6 @@ Steps:
 
 Para ver as pipeline a funcionarem localmente, execute:
 1. npm run test:parallel
-2. npm run test:sequentials
+2. npm run test:sequential
 
 Para ver as pipeline a funcionarem no repo com github Actions, faça alguma alteração e faça push no repo
