@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "open": "cypress open",
-    "test:parallel": "cypress run --record --key ea203c2d-f29a-4c84-81f1-f7f0bd2fe9f8 --spec \"cypress/e2e/parallel/*.cy.js\"",
+    "test:parallel": "cypress run --record --key f70f970b-dfd6-4e68-a202-4130f7f59627 --spec \"cypress/e2e/parallel/*.cy.js\"",
     "test:sequential": "cypress run --spec \"cypress/e2e/sequentials/*.cy.js\""
   },
   "repository": {
