@@ -1,0 +1,25 @@
+{
+  "name": "parallel_and_sequentials-pipelines",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "cypress open",
+    "test:parallel": "cypress run --record --key ea203c2d-f29a-4c84-81f1-f7f0bd2fe9f8 --spec \"cypress/e2e/parallel/*.cy.js\"",
+    "test:sequential": "cypress run --spec \"cypress/e2e/sequentials/*.cy.js\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AdilsonJoaquim/parallel_and_sequentials-pipelines.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AdilsonJoaquim/parallel_and_sequentials-pipelines/issues"
+  },
+  "homepage": "https://github.com/AdilsonJoaquim/parallel_and_sequentials-pipelines#readme",
+  "devDependencies": {
+    "cypress": "^12.13.0"
+  }
+}
